@@ -1,38 +1,36 @@
 export default function Hero() {
   return (
-    <section className="bg-slate-900 text-white">
-      <div className="mx-auto max-w-7xl px-6 py-16 md:px-8 md:py-24 xl:max-w-[1400px]">
-        <div className="flex flex-col gap-10 md:flex-row md:items-center md:justify-between">
-          {/* Left Content */}
-          <div className="max-w-xl">
-            <h1 className="text-4xl font-bold leading-tight md:text-5xl">
-              24/7 Emergency Plumbing
+    <section className="text-white">
+      <div className="mx-auto max-w-[1400px] px-8 py-20 md:px-10 md:py-24 xl:px-12">
+        <div className="grid items-center gap-14 lg:grid-cols-2 lg:gap-16">
+          <div className="max-w-[620px]">
+            <h1 className="text-5xl font-semibold leading-[1.05] tracking-[-0.025em] md:text-6xl lg:text-7xl">
+              24/7 Emergency
               <br />
-              in Columbus
+              Plumbing in
+              <br />
+              Columbus
             </h1>
 
-            <p className="mt-4 text-lg text-slate-300 md:text-xl">
+            <p className="mt-6 text-xl text-white/90 leading-relaxed md:text-2xl">
               Fast, reliable service for leaks, clogs, and repairs
             </p>
 
-            <div className="mt-8 flex flex-wrap gap-4">
-              {/* Primary CTA */}
+            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a
                 href="tel:+16145551234"
-                className="inline-flex min-h-[56px] items-center justify-center rounded-xl bg-orange-500 px-6 text-base font-semibold text-white shadow hover:bg-orange-600"
+                className="flex w-full sm:w-auto min-h-[56px] items-center justify-center rounded-2xl bg-[#ff6b35] px-8 text-lg font-semibold text-white shadow-lg transition hover:bg-[#e85a2a]"
               >
-                Call Now — 24/7 Service
+                Call Now
               </a>
 
-              {/* Secondary CTA */}
-              <button className="inline-flex min-h-[56px] items-center justify-center rounded-xl bg-white px-6 text-base font-semibold text-slate-900">
+              <button className="flex w-full sm:w-auto min-h-[56px] items-center justify-center rounded-2xl bg-white px-8 text-lg font-semibold text-slate-900 shadow-sm transition hover:bg-slate-100">
                 Request Service
               </button>
             </div>
           </div>
 
-          {/* Right Image */}
-          <div className="w-full max-w-md md:max-w-lg">
+          <div className="w-full">
             <img
               src="public/images/Hero.jpg"
               alt="Plumber working under sink"

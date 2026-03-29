@@ -11,7 +11,7 @@ import RequestModal from "./components/RequestModal"
 
 function App() {
   return (
-    <>
+    <div className="min-h-screen bg-[#0f537a] text-white">
       <Navbar />
       <Hero />
       <TrustStrip />
@@ -22,7 +22,7 @@ function App() {
       <FinalCTA />
       <RequestModal />
       <StickyCallButton />
-    </>
+    </div>
   )
 }
 

@@ -44,7 +44,7 @@ export default function Hero({ onRequestClick }: HeroProps) {
 
           <div className="w-full">
             <img
-              src="public/images/Hero.jpg"
+              src="/Hero.jpg"
               alt="Plumber working under sink"
               className="w-full rounded-2xl object-cover"
             />
